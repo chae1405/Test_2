@@ -110,7 +110,7 @@ class MainActivity : AppCompatActivity() {
     {
         if(cards[position].identifier == cards[position2].identifier)
         {
-            Toast.makeText(this,"성공^^ ",Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,"성공^^ 테스트 ",Toast.LENGTH_SHORT).show()
             cards[position].isMathed = true
             cards[position2].isMathed = true
 
